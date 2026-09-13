@@ -32,7 +32,7 @@ def connect_to_sheet():
     sys.exit("✗ Could not connect to Google Sheets.")
 
 def generate_dsa_bundle(question_name: str, topic: str, link: str):
-    """Generates LeetCode-compliant C++ and Java code along with interview README."""
+    """Generates LeetCode-compliant C++ and Java code along with an interview README."""
     client = Groq(api_key=GROQ_API_KEY)
     
     prompt = f"""
@@ -42,7 +42,7 @@ Solve this DSA problem thoroughly:
 - Topic: {topic}
 - Reference Link: {link}
 
-Generate full, ready-to-submit implementations (LeetCode/NeetCode style with standard class/method signatures) in both C++ and Java.
+Generate complete, ready-to-submit implementations (LeetCode/NeetCode style with standard class and method signatures) in both C++ and Java.
 Provide 3 approaches for each language:
 1. Worst / Brute Force
 2. Better / Intermediate Optimization
@@ -66,22 +66,48 @@ Output MUST be a single valid JSON object strictly matching this schema:
   "java_optimal": "Compilable Java code for optimal approach"
 }}
 """
+    # Candidate models in order of capability on Groq
+    candidate_models = ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "llama-3.1-8b-instant"]
 
-    response = client.chat.completions.create(
-        messages=[
-            {
-                "role": "system",
-                "content": "You are a specialized code generation engine. You must output only raw JSON adhering strictly to the requested schema. Ensure all internal code strings and quotes are properly escaped."
-            },
-            {"role": "user", "content": prompt}
-        ],
-        model="llama-3.3-70b-versatile",
-        response_format={"type": "json_object"},
-        max_tokens=7500,
-        temperature=0.2
-    )
+    for model_name in candidate_models:
+        try:
+            print(f"🤖 Attempting generation with model: {model_name}...")
+            response = client.chat.completions.create(
+                messages=[
+                    {
+                        "role": "system",
+                        "content": (
+                            "You are a specialized code generation engine. "
+                            "You must output only a valid raw JSON object strictly adhering to the requested schema. "
+                            "Do not wrap your answer in markdown tags. Ensure all internal code quotes and newlines are safely escaped."
+                        )
+                    },
+                    {"role": "user", "content": prompt}
+                ],
+                model=model_name,
+                response_format={"type": "json_object"},
+                max_tokens=6000,
+                temperature=0.2
+            )
 
-    return json.loads(response.choices[0].message.content)
+            raw_text = response.choices[0].message.content
+
+            # Safety cleanup: strip any model <think> reasoning tags if present
+            if "<think>" in raw_text and "</think>" in raw_text:
+                think_end = raw_text.find("</think>")
+                raw_text = raw_text[think_end + len("</think>"):].strip()
+
+            start_idx = raw_text.find("{")
+            end_idx = raw_text.rfind("}")
+            if start_idx != -1 and end_idx != -1:
+                clean_json_str = raw_text[start_idx:end_idx+1]
+                return json.loads(clean_json_str)
+
+        except Exception as err:
+            print(f"⚠ Model {model_name} failed: {err}")
+            print("  Trying next fallback model...")
+
+    sys.exit("✗ All candidate models failed to generate valid DSA solutions.")
 
 def update_root_readme(topic: str, question: str, relative_path: str):
     """Appends the newly solved problem to the root index table."""
