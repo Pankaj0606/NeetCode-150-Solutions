@@ -1,0 +1,1 @@
+class Solution {\n    public boolean containsDuplicate(int[] nums) {\n        int n = nums.length;\n        for (int i = 0; i < n; i++) {\n            for (int j = i + 1; j < n; j++) {\n                if (nums[i] == nums[j]) return true;\n            }\n        }\n        return false;\n    }\n}

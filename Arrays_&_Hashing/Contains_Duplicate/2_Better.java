@@ -1,0 +1,1 @@
+import java.util.Arrays;\nclass Solution {\n    public boolean containsDuplicate(int[] nums) {\n        Arrays.sort(nums);\n        for (int i = 1; i < nums.length; i++) {\n            if (nums[i] == nums[i-1]) return true;\n        }\n        return false;\n    }\n}

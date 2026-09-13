@@ -1,0 +1,1 @@
+#include <vector>\nclass Solution {\npublic:\n    bool containsDuplicate(std::vector<int>& nums) {\n        int n = nums.size();\n        for (int i = 0; i < n; ++i) {\n            for (int j = i + 1; j < n; ++j) {\n                if (nums[i] == nums[j]) return true;\n            }\n        }\n        return false;\n    }\n};
