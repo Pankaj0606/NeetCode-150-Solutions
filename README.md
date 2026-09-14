@@ -5,3 +5,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Topic | Problem | Status |
 | :--- | :--- | :--- |
 | Arrays & Hashing | [Contains Duplicate](./Arrays_&_Hashing/Contains_Duplicate) | ✅ Completed |
+| Arrays & Hashing | [Valid Anagram](./Arrays_&_Hashing/Valid_Anagram) | ✅ Completed |
