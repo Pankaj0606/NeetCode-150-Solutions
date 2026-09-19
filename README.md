@@ -9,3 +9,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Arrays & Hashing | [Two Sum](./Arrays_&_Hashing/Two_Sum) | ✅ Completed |
 | Arrays & Hashing | [Group Anagrams](./Arrays_&_Hashing/Group_Anagrams) | ✅ Completed |
 | Arrays & Hashing | [Top K Frequent Elements](./Arrays_&_Hashing/Top_K_Frequent_Elements) | ✅ Completed |
+| Arrays & Hashing | [Encode and Decode Strings](./Arrays_&_Hashing/Encode_and_Decode_Strings) | ✅ Completed |
