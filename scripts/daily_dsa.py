@@ -79,7 +79,7 @@ Output MUST be a single valid JSON object strictly matching this schema:
                         "content": (
                             "You are a specialized code generation engine. "
                             "You must output only a valid raw JSON object strictly adhering to the requested schema. "
-                            "Do not wrap your answer in markdown tags. Ensure all internal code quotes and newlines are safely escaped."
+                            "Do not wrap your answer in markdown tags."
                         )
                     },
                     {"role": "user", "content": prompt}
@@ -169,6 +169,15 @@ def main():
         "2_Better.java": data["java_better"],
         "3_Optimal.java": data["java_optimal"]
     }
+
+    def format_code(text: str) -> str:
+        """Converts literal escaped newlines and tabs into real multi-line code."""
+        if not isinstance(text, str):
+            return ""
+        # If the LLM returned literal '\n' instead of actual newlines
+        if "\\n" in text:
+            text = text.replace("\\r\\n", "\n").replace("\\n", "\n").replace("\\t", "    ")
+        return text.strip() + "\n"
 
     for filename, content in files_to_write.items():
         filepath = os.path.join(target_dir, filename)
