@@ -12,3 +12,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Arrays & Hashing | [Encode and Decode Strings](./Arrays_&_Hashing/Encode_and_Decode_Strings) | ✅ Completed |
 | Arrays & Hashing | [Products of Array Except Self](./Arrays_&_Hashing/Products_of_Array_Except_Self) | ✅ Completed |
 | Arrays & Hashing | [Valid Sudoku](./Arrays_&_Hashing/Valid_Sudoku) | ✅ Completed |
+| Arrays & Hashing | [Longest Consecutive Sequence](./Arrays_&_Hashing/Longest_Consecutive_Sequence) | ✅ Completed |
