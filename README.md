@@ -15,3 +15,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Arrays & Hashing | [Longest Consecutive Sequence](./Arrays_&_Hashing/Longest_Consecutive_Sequence) | ✅ Completed |
 | Stack | [Valid Parentheses](./Stack/Valid_Parentheses) | ✅ Completed |
 | Stack | [Min Stack](./Stack/Min_Stack) | ✅ Completed |
+| Stack | [Evaluate Reverse Polish Notation](./Stack/Evaluate_Reverse_Polish_Notation) | ✅ Completed |
