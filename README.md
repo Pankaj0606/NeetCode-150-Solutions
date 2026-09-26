@@ -16,3 +16,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Stack | [Valid Parentheses](./Stack/Valid_Parentheses) | ✅ Completed |
 | Stack | [Min Stack](./Stack/Min_Stack) | ✅ Completed |
 | Stack | [Evaluate Reverse Polish Notation](./Stack/Evaluate_Reverse_Polish_Notation) | ✅ Completed |
+| Stack | [Daily Temperatures](./Stack/Daily_Temperatures) | ✅ Completed |
