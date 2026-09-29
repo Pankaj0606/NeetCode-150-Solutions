@@ -19,3 +19,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Stack | [Daily Temperatures](./Stack/Daily_Temperatures) | ✅ Completed |
 | Stack | [Car Fleet](./Stack/Car_Fleet) | ✅ Completed |
 | Stack | [Largest Rectangle In Histogram](./Stack/Largest_Rectangle_In_Histogram) | ✅ Completed |
+| Two Pointers | [Valid Palindrome](./Two_Pointers/Valid_Palindrome) | ✅ Completed |
