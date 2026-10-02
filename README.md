@@ -22,3 +22,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Two Pointers | [Valid Palindrome](./Two_Pointers/Valid_Palindrome) | ✅ Completed |
 | Two Pointers | [Two Integer Sum II](./Two_Pointers/Two_Integer_Sum_II) | ✅ Completed |
 | Two Pointers | [3Sum](./Two_Pointers/3Sum) | ✅ Completed |
+| Two Pointers | [Container With Most Water](./Two_Pointers/Container_With_Most_Water) | ✅ Completed |

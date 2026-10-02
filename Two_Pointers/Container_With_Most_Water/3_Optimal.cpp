@@ -1,0 +1,2 @@
+#include <bits/stdc++.h>\nusing namespace std;\n\nclass Solution {\npublic:\n    int maxArea(vector<int>& height) {\n        int left = 0, right = (int)height.size() - 1;\n        int ans = 0;\n        while (left < right) {\n            int h = min(height[left], height[right]);\n            int w = right - left;\n            ans = max(ans, h * w);\n            // Move the pointer at the shorter line
+            if (height[left] < height[right]) ++left;\n            else --right;\n        }\n        return ans;\n    }\n};
