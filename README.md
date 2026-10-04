@@ -24,3 +24,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Two Pointers | [3Sum](./Two_Pointers/3Sum) | ✅ Completed |
 | Two Pointers | [Container With Most Water](./Two_Pointers/Container_With_Most_Water) | ✅ Completed |
 | Two Pointers | [Trapping Rain Water](./Two_Pointers/Trapping_Rain_Water) | ✅ Completed |
+| Binary Search | [Binary Search](./Binary_Search/Binary_Search) | ✅ Completed |
