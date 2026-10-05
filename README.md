@@ -25,3 +25,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Two Pointers | [Container With Most Water](./Two_Pointers/Container_With_Most_Water) | ✅ Completed |
 | Two Pointers | [Trapping Rain Water](./Two_Pointers/Trapping_Rain_Water) | ✅ Completed |
 | Binary Search | [Binary Search](./Binary_Search/Binary_Search) | ✅ Completed |
+| Binary Search | [Search a 2D Matrix](./Binary_Search/Search_a_2D_Matrix) | ✅ Completed |
