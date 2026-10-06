@@ -26,3 +26,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Two Pointers | [Trapping Rain Water](./Two_Pointers/Trapping_Rain_Water) | ✅ Completed |
 | Binary Search | [Binary Search](./Binary_Search/Binary_Search) | ✅ Completed |
 | Binary Search | [Search a 2D Matrix](./Binary_Search/Search_a_2D_Matrix) | ✅ Completed |
+| Binary Search | [Koko Eating Bananas](./Binary_Search/Koko_Eating_Bananas) | ✅ Completed |
