@@ -28,3 +28,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Binary Search | [Search a 2D Matrix](./Binary_Search/Search_a_2D_Matrix) | ✅ Completed |
 | Binary Search | [Koko Eating Bananas](./Binary_Search/Koko_Eating_Bananas) | ✅ Completed |
 | Binary Search | [Find Minimum in Rotated Sorted Array](./Binary_Search/Find_Minimum_in_Rotated_Sorted_Array) | ✅ Completed |
+| Binary Search | [Search in Rotated Sorted Array](./Binary_Search/Search_in_Rotated_Sorted_Array) | ✅ Completed |
