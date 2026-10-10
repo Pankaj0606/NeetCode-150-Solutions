@@ -30,3 +30,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Binary Search | [Find Minimum in Rotated Sorted Array](./Binary_Search/Find_Minimum_in_Rotated_Sorted_Array) | ✅ Completed |
 | Binary Search | [Search in Rotated Sorted Array](./Binary_Search/Search_in_Rotated_Sorted_Array) | ✅ Completed |
 | Binary Search | [Time Based Key-Value Store](./Binary_Search/Time_Based_Key-Value_Store) | ✅ Completed |
+| Binary Search | [Median of Two Sorted Arrays](./Binary_Search/Median_of_Two_Sorted_Arrays) | ✅ Completed |
