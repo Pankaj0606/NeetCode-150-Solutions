@@ -34,3 +34,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Sliding Window | [Best Time to Buy and Sell Stock](./Sliding_Window/Best_Time_to_Buy_and_Sell_Stock) | ✅ Completed |
 | Sliding Window | [Longest Substring Without Repeating Characters](./Sliding_Window/Longest_Substring_Without_Repeating_Characters) | ✅ Completed |
 | Sliding Window | [Longest Repeating Character Replacement](./Sliding_Window/Longest_Repeating_Character_Replacement) | ✅ Completed |
+| Sliding Window | [Permutation in String](./Sliding_Window/Permutation_in_String) | ✅ Completed |
