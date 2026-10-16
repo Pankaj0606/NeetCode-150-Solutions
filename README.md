@@ -36,3 +36,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Sliding Window | [Longest Repeating Character Replacement](./Sliding_Window/Longest_Repeating_Character_Replacement) | ✅ Completed |
 | Sliding Window | [Permutation in String](./Sliding_Window/Permutation_in_String) | ✅ Completed |
 | Sliding Window | [Minimum Window Substring](./Sliding_Window/Minimum_Window_Substring) | ✅ Completed |
+| Sliding Window | [Sliding Window Maximum](./Sliding_Window/Sliding_Window_Maximum) | ✅ Completed |
