@@ -37,3 +37,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Sliding Window | [Permutation in String](./Sliding_Window/Permutation_in_String) | ✅ Completed |
 | Sliding Window | [Minimum Window Substring](./Sliding_Window/Minimum_Window_Substring) | ✅ Completed |
 | Sliding Window | [Sliding Window Maximum](./Sliding_Window/Sliding_Window_Maximum) | ✅ Completed |
+| Linked List | [Reverse Linked List](./Linked_List/Reverse_Linked_List) | ✅ Completed |
