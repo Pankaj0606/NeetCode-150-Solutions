@@ -42,3 +42,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Linked List | [Linked List Cycle Detection](./Linked_List/Linked_List_Cycle_Detection) | ✅ Completed |
 | Linked List | [Reorder Linked List](./Linked_List/Reorder_Linked_List) | ✅ Completed |
 | Linked List | [Remove Nth Node From End of List](./Linked_List/Remove_Nth_Node_From_End_of_List) | ✅ Completed |
+| Linked List | [Copy Linked List with Random Pointer](./Linked_List/Copy_Linked_List_with_Random_Pointer) | ✅ Completed |
