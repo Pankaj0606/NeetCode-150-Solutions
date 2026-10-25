@@ -45,3 +45,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Linked List | [Copy Linked List with Random Pointer](./Linked_List/Copy_Linked_List_with_Random_Pointer) | ✅ Completed |
 | Linked List | [Add Two Numbers](./Linked_List/Add_Two_Numbers) | ✅ Completed |
 | Linked List | [Find the Duplicate Number](./Linked_List/Find_the_Duplicate_Number) | ✅ Completed |
+| Linked List | [LRU Cache](./Linked_List/LRU_Cache) | ✅ Completed |
