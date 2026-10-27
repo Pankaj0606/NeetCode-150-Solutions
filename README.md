@@ -46,3 +46,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Linked List | [Add Two Numbers](./Linked_List/Add_Two_Numbers) | ✅ Completed |
 | Linked List | [Find the Duplicate Number](./Linked_List/Find_the_Duplicate_Number) | ✅ Completed |
 | Linked List | [LRU Cache](./Linked_List/LRU_Cache) | ✅ Completed |
+| Linked List | [Merge K Sorted Linked Lists](./Linked_List/Merge_K_Sorted_Linked_Lists) | ✅ Completed |
