@@ -48,3 +48,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Linked List | [LRU Cache](./Linked_List/LRU_Cache) | ✅ Completed |
 | Linked List | [Merge K Sorted Linked Lists](./Linked_List/Merge_K_Sorted_Linked_Lists) | ✅ Completed |
 | Linked List | [Reverse Nodes in K-Group](./Linked_List/Reverse_Nodes_in_K-Group) | ✅ Completed |
+| Trees | [Invert Binary Tree](./Trees/Invert_Binary_Tree) | ✅ Completed |
