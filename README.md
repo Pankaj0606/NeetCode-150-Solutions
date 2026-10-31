@@ -50,3 +50,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Linked List | [Reverse Nodes in K-Group](./Linked_List/Reverse_Nodes_in_K-Group) | ✅ Completed |
 | Trees | [Invert Binary Tree](./Trees/Invert_Binary_Tree) | ✅ Completed |
 | Trees | [Maximum Depth of Binary Tree](./Trees/Maximum_Depth_of_Binary_Tree) | ✅ Completed |
+| Trees | [Diameter of Binary Tree](./Trees/Diameter_of_Binary_Tree) | ✅ Completed |
