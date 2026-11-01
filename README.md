@@ -51,3 +51,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Trees | [Invert Binary Tree](./Trees/Invert_Binary_Tree) | ✅ Completed |
 | Trees | [Maximum Depth of Binary Tree](./Trees/Maximum_Depth_of_Binary_Tree) | ✅ Completed |
 | Trees | [Diameter of Binary Tree](./Trees/Diameter_of_Binary_Tree) | ✅ Completed |
+| Trees | [Balanced Binary Tree](./Trees/Balanced_Binary_Tree) | ✅ Completed |
