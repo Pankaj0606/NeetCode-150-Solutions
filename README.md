@@ -54,3 +54,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Trees | [Balanced Binary Tree](./Trees/Balanced_Binary_Tree) | ✅ Completed |
 | Trees | [Same Binary Tree](./Trees/Same_Binary_Tree) | ✅ Completed |
 | Trees | [Subtree of Another Tree](./Trees/Subtree_of_Another_Tree) | ✅ Completed |
+| Trees | [Lowest Common Ancestor in Binary Search Tree](./Trees/Lowest_Common_Ancestor_in_Binary_Search_Tree) | ✅ Completed |
