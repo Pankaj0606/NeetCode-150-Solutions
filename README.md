@@ -57,3 +57,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Trees | [Lowest Common Ancestor in Binary Search Tree](./Trees/Lowest_Common_Ancestor_in_Binary_Search_Tree) | ✅ Completed |
 | Trees | [Binary Tree Level Order Traversal](./Trees/Binary_Tree_Level_Order_Traversal) | ✅ Completed |
 | Trees | [Binary Tree Right Side View](./Trees/Binary_Tree_Right_Side_View) | ✅ Completed |
+| Trees | [Count Good Nodes in Binary Tree](./Trees/Count_Good_Nodes_in_Binary_Tree) | ✅ Completed |
