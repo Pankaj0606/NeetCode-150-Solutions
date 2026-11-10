@@ -60,3 +60,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Trees | [Count Good Nodes in Binary Tree](./Trees/Count_Good_Nodes_in_Binary_Tree) | ✅ Completed |
 | Trees | [Valid Binary Search Tree](./Trees/Valid_Binary_Search_Tree) | ✅ Completed |
 | Trees | [Kth Smallest Integer in BST](./Trees/Kth_Smallest_Integer_in_BST) | ✅ Completed |
+| Trees | [Construct Binary Tree from Preorder and Inorder Traversal](./Trees/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) | ✅ Completed |
