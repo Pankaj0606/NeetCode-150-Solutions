@@ -61,3 +61,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Trees | [Valid Binary Search Tree](./Trees/Valid_Binary_Search_Tree) | ✅ Completed |
 | Trees | [Kth Smallest Integer in BST](./Trees/Kth_Smallest_Integer_in_BST) | ✅ Completed |
 | Trees | [Construct Binary Tree from Preorder and Inorder Traversal](./Trees/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) | ✅ Completed |
+| Trees | [Binary Tree Maximum Path Sum](./Trees/Binary_Tree_Maximum_Path_Sum) | ✅ Completed |
