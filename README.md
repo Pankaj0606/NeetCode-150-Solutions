@@ -63,3 +63,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Trees | [Construct Binary Tree from Preorder and Inorder Traversal](./Trees/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal) | ✅ Completed |
 | Trees | [Binary Tree Maximum Path Sum](./Trees/Binary_Tree_Maximum_Path_Sum) | ✅ Completed |
 | Trees | [Serialize and Deserialize Binary Tree](./Trees/Serialize_and_Deserialize_Binary_Tree) | ✅ Completed |
+| Tries | [Implement Trie (Prefix Tree)](./Tries/Implement_Trie_(Prefix_Tree)) | ✅ Completed |
