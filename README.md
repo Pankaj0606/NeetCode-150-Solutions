@@ -64,3 +64,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Trees | [Binary Tree Maximum Path Sum](./Trees/Binary_Tree_Maximum_Path_Sum) | ✅ Completed |
 | Trees | [Serialize and Deserialize Binary Tree](./Trees/Serialize_and_Deserialize_Binary_Tree) | ✅ Completed |
 | Tries | [Implement Trie (Prefix Tree)](./Tries/Implement_Trie_(Prefix_Tree)) | ✅ Completed |
+| Tries | [Design Add and Search Word Data Structure](./Tries/Design_Add_and_Search_Word_Data_Structure) | ✅ Completed |
