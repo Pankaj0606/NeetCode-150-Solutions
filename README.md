@@ -67,3 +67,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Tries | [Design Add and Search Word Data Structure](./Tries/Design_Add_and_Search_Word_Data_Structure) | ✅ Completed |
 | Tries | [Word Search II](./Tries/Word_Search_II) | ✅ Completed |
 | Backtracking | [Subsets](./Backtracking/Subsets) | ✅ Completed |
+| Backtracking | [Combination Sum](./Backtracking/Combination_Sum) | ✅ Completed |
