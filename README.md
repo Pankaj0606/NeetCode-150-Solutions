@@ -70,3 +70,4 @@ An automated repository archiving daily Data Structures & Algorithms solutions i
 | Backtracking | [Combination Sum](./Backtracking/Combination_Sum) | ✅ Completed |
 | Backtracking | [Combination Sum II](./Backtracking/Combination_Sum_II) | ✅ Completed |
 | Backtracking | [Permutations](./Backtracking/Permutations) | ✅ Completed |
+| Backtracking | [Subsets II](./Backtracking/Subsets_II) | ✅ Completed |
